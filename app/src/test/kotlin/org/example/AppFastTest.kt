@@ -8,21 +8,21 @@ import org.junit.jupiter.api.Assertions.assertNotNull
 
 class AppFastTest {
     @Test
-    fun appHasAGreeting1a() {
+    fun AppFastTest_appHasAGreeting1a() {
         println("AppFastTest 1a")
         val classUnderTest = App()
         assertNotNull(classUnderTest.greeting, "app should have a greeting")
     }
 
     @Test
-    fun appHasAGreeting1b() {
+    fun AppFastTest_appHasAGreeting1b() {
         println("AppFastTest 1b")
         val classUnderTest = App()
         assertNotNull(classUnderTest.greeting, "app should have a greeting")
     }
 
     @Test
-    fun appHasAGreeting1c() {
+    fun AppFastTest_appHasAGreeting1c() {
         println("AppFastTest 1c")
         val classUnderTest = App()
         assertNotNull(classUnderTest.greeting, "app should have a greeting")
