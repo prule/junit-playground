@@ -11,3 +11,4 @@ junit-jupiter = { module = "org.junit.jupiter:junit-jupiter", version.ref = "jun
 
 [plugins]
 jvm = { id = "org.jetbrains.kotlin.jvm", version = "1.9.22" }
+test-logger = { id = "com.adarshr.test-logger", version = "4.0.0" }
