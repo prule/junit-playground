@@ -5,6 +5,7 @@ A playground for experimenting with Junit and Gradle.
 ### Test logger plugin
 
 Test logger gives nice looking output for test results.
+See https://github.com/radarsh/gradle-test-logger-plugin
 
 ```shell
 % ./gradlew clean test
@@ -43,7 +44,7 @@ next to the "reload gradle project" icon.
 
 ### Ordering tests
 
-Control the order of your junit5 tests - junit.org/junit5/docs/current/user-guide
+Control the order of your junit5 tests - https://junit.org/junit5/docs/current/user-guide/#writing-tests-test-execution-order
 
 You can implement your own custom ClassOrderer or use one of the built in implementations. 
 
@@ -89,6 +90,8 @@ BUILD SUCCESSFUL in 2s
 ```
 
 ### Using JVM Test Suite Plugin to separate tests into different types
+
+See https://docs.gradle.org/current/userguide/jvm_test_suite_plugin.html
 
 Use the gradle JVM Test Suite Plugin to separate your tests into different suite types - use:
 
@@ -175,6 +178,8 @@ BUILD SUCCESSFUL in 2s
 ```
 
 ### Running in parallel
+
+See https://junit.org/junit5/docs/current/user-guide/#writing-tests-parallel-execution
 
 You can run tests in parallel using the following configuration:
 
