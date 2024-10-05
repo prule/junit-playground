@@ -6,24 +6,24 @@ package org.example
 import org.junit.jupiter.api.Test
 import org.junit.jupiter.api.Assertions.assertNotNull
 
-class AppTest2 {
+class AppSlowTest1 {
     @Test
-    fun appHasAGreeting2a() {
-        println("appHasAGreeting 2a")
+    fun appHasAGreeting1a() {
+        println("appHasAGreeting 1a")
         val classUnderTest = App()
         assertNotNull(classUnderTest.greeting, "app should have a greeting")
     }
 
     @Test
-    fun appHasAGreeting2b() {
-        println("appHasAGreeting 2b")
+    fun appHasAGreeting1b() {
+        println("appHasAGreeting 1b")
         val classUnderTest = App()
         assertNotNull(classUnderTest.greeting, "app should have a greeting")
     }
 
     @Test
-    fun appHasAGreeting2c() {
-        println("appHasAGreeting 2c")
+    fun appHasAGreeting1c() {
+        println("appHasAGreeting 1c")
         val classUnderTest = App()
         assertNotNull(classUnderTest.greeting, "app should have a greeting")
     }
